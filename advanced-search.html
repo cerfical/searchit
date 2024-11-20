@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="default.css" rel="stylesheet">
+    <title>SearchIt: Advanced Search</title>
+</head>
+
+<body>
+    <div id="searchOptions">
+        <a href="index.html">Go Back</a>
+    </div>
+
+    <img src="images/search-logo.svg" id="searchLogo">
+    <form action="https://google.com/search">
+        <table>
+            <tr>
+                <th>Find pages with...</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>all these words:</td>
+                <td>
+                    <input type="text" name="as_q" class="text-box rect-border">
+                </td>
+            </tr>
+            <tr>
+                <td>this exact word or phrase:</td>
+                <td>
+                    <input type="text" name="as_epq" class="text-box rect-border">
+                </td>
+            </tr>
+            <tr>
+                <td>any of these words:</td>
+                <td>
+                    <input type="text" name="as_oq" class="text-box rect-border">
+                </td>
+            </tr>
+            <tr>
+                <td>none of these words:</td>
+                <td>
+                    <input type="text" name="as_eq" class="text-box rect-border">
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Advanced Search" id="searchSubmitButton">
+    </form>
+</body>
+
+</html>
