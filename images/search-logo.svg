@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="50 47.2 265.79 77.2">
+    <defs>
+        <style>
+            .s0 { fill: #4285F4; font-family: 'Comic Sans MS', cursive, sans-serif; }
+            .s1 { fill: #EA4335; font-family: 'Comic Sans MS', cursive, sans-serif; }
+            .s2 { fill: #FBBC05; font-family: 'Comic Sans MS', cursive, sans-serif; }
+            .s3 { fill: #34A853; font-family: 'Comic Sans MS', cursive, sans-serif; }
+            .s4 { fill: #34A853; font-family: 'Comic Sans MS', cursive, sans-serif; font-style: italic; }
+            .s5 { fill: #EA4335; font-family: 'Comic Sans MS', cursive, sans-serif; }
+            .s6 { fill: #4285F4; font-family: 'Comic Sans MS', cursive, sans-serif; font-weight: bold; }
+            .shadow { fill: #000; opacity: 0.1; }
+        </style>
+    </defs>
+    <text x="50" y="100" font-size="48" class="s0">S</text>
+    <text x="85" y="100" font-size="48" class="s1">e</text>
+    <text x="120" y="100" font-size="48" class="s2">a</text>
+    <text x="155" y="100" font-size="48" class="s3">r</text>
+    <text x="190" y="100" font-size="48" class="s4">c</text>
+    <text x="225" y="100" font-size="48" class="s5">h</text>
+    <text x="260" y="100" font-size="48" class="s6">I</text>
+    <text x="285" y="100" font-size="48" class="s2">t</text>
+</svg>

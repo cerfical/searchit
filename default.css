@@ -13,6 +13,11 @@ body {
     flex-direction: column;
 }
 
+.search-logo {
+    width: 40em;
+    height: auto;
+}
+
 .search-form {
     display: flex;
     align-items: center;
@@ -33,7 +38,7 @@ body {
     border-radius: 30px;
     border-color: lightgrey;
 
-    background: url("search-icon.svg") no-repeat;
+    background: url("images/search-icon.svg") no-repeat;
     background-size: 1em;
     background-position: 1em;
 }
