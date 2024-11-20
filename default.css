@@ -14,9 +14,17 @@ body * {
     font-family: Arial;
 }
 
+
 table {
     border-spacing: 0.5em;
 }
+
+td input[type="text"] {
+    width: 30em;
+    padding: 0.3em;
+    border-radius: 5px;
+}
+
 
 form {
     display: flex;
@@ -24,29 +32,34 @@ form {
     flex-direction: column;
 }
 
-.round-border {
-    padding: 0.9em;
-    border-radius: 30px;
-}
+input[type="submit"] {
+    position: relative;
+    top: 10px;
+    padding: 10px;
 
-.rect-border {
-    padding: 0.3em;
+    border: 0;
     border-radius: 5px;
 }
 
-.text-box {
+input[type="submit"]:hover {
+    outline: solid 1px;
+    outline-color: lightgrey;
+}
+
+input[type="text"] {
     border: solid 1px;
     border-color: lightgrey;
 }
 
-.text-box:focus-within {
+input[type="text"]:focus-within {
     outline: solid #f5f5f5;
     outline-width: 3px;
 }
 
-td .text-box {
-    width: 30em;
+input[type="text"]:hover {
+    background-color: #f7f7f7 !important;
 }
+
 
 #searchOptions {
     margin: 0.3em;
@@ -67,19 +80,12 @@ td .text-box {
     width: 25em;
     height: auto;
 
+    padding: 0.9em;
     padding-left: 2.6em;
     padding-right: 1.5em;
 
+    border-radius: 30px;
     background: url("images/search-icon.svg") no-repeat;
     background-size: 1em;
     background-position: 1em;
-}
-
-#searchSubmitButton {
-    position: relative;
-    top: 10px;
-    padding: 10px;
-
-    border: 0;
-    border-radius: 5px;
 }
