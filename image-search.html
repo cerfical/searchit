@@ -3,16 +3,17 @@
 
 <head>
     <link href="default.css" rel="stylesheet">
-    <title>SearchIt</title>
+    <title>SearchIt: Image Search</title>
 </head>
 
 <body>
     <div class="search-options-list">
-        <a href="image-search.html">Search Images</a>
+        <a href="index.html">Go Back</a>
     </div>
     <div class="search-form-cont">
-        <img src="images/search-logo.svg" class="search-logo">
+        <img src="images/image-search-logo.svg" class="search-logo">
         <form action="https://google.com/search" class="search-form">
+            <input type="hidden" name="udm" value="2">
             <input type="text" name="q" placeholder="Enter your query" class="search-bar">
             <input type="submit" value="Google Search" class="search-submit-button">
         </form>
